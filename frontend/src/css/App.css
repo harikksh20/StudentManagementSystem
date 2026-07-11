@@ -1,0 +1,30 @@
+.app {
+    display: flex;
+}
+
+.main-content {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    min-height: 100vh;
+    background: #f5f7fb;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+/* When sidebar is collapsed */
+.main-content.collapsed {
+    margin-left: 85px;
+    width: calc(100% - 85px);
+}
+
+/* Mobile */
+@media (max-width:768px){
+
+.main-content,
+.main-content.collapsed{
+    margin-left:0;
+    width:100%;
+    padding:15px;
+}
+
+}

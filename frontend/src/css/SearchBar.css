@@ -1,0 +1,19 @@
+.search-container{
+    width:90%;
+    margin:20px auto;
+}
+
+.search-container input{
+    width:100%;
+    padding:14px;
+    font-size:17px;
+    border-radius:10px;
+    border:1px solid #ccc;
+    outline:none;
+    transition:.3s;
+}
+
+.search-container input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 10px rgba(37,99,235,.3);
+}

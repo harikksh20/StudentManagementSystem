@@ -1,0 +1,34 @@
+.table-container{
+    overflow-x:auto;
+}
+
+table{
+    min-width:900px;
+}
+
+@media(max-width:768px){
+
+.table-container{
+
+padding:10px;
+
+}
+
+th,
+td{
+
+padding:10px;
+
+font-size:14px;
+
+}
+
+.edit-btn,
+.delete-btn{
+
+padding:6px 10px;
+font-size:13px;
+
+}
+
+}

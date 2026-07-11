@@ -1,0 +1,24 @@
+.main-content{
+    margin-left:260px;
+    padding:30px;
+    transition:0.3s;
+    min-height:100vh;
+    background:#f5f7fb;
+}
+
+.main-content.collapsed{
+    margin-left:80px;
+}
+
+@media (max-width:768px){
+
+    .main-content{
+        margin-left:0;
+        padding:15px;
+    }
+
+    .main-content.collapsed{
+        margin-left:0;
+    }
+
+}
